@@ -1,0 +1,45 @@
+menu "Example Configuration"
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "HUAWEI-0G18YA"
+        help
+            SSID (network name) for the example to connect to.
+    
+    config WIFI_PASSWORD
+        string "WiFi Password"
+        default "12345678aa"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+            Can be left blank if the network has no security set.
+    
+    config BAIDU_ASR_ACCESS_KEY
+        string "BAIDU ASR ACCESS KEY"
+        default "eyOzrPzlianLEwZJH9yVetsc"
+        help
+            BAIDU ASR ACCESS KEY for your application   
+    
+    config BAIDU_ASR_ACCESS_SECERT
+        string "BAIDU ASR ACCESS SECERT"
+        default "cFqe5RkZmw4UAWJz1OasuCW1s6CwPLiA"
+        help
+            BAIDU ASR ACCESS SECERT for your application
+    
+    config BAIDU_GPT_ACCESS_KEY
+        string "BAIDU GPT ACCESS KEY"
+        default "zkIGnbJbHOwDDjsAPo8fELKU"
+        help
+            BAIDU GPT ACCESS KEY for your application   
+            
+    config BAIDU_GPT_ACCESS_SECERT
+        string "BAIDU GPT ACCESS SECERT"
+        default "irnU3c7HflG995SsxUejIPxkN7LIWhaj"
+        help
+        BAIDU GPT ACCESS SECERT for your application
+
+    config TEST_SERVER_URI
+        string "Test Server URL to send recrod data"
+        default "http://192.168.1.75:8000/upload"
+        help
+            Test Server URL to send record data
+endmenu

@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "*.ipp": "c",
+    "audio_event_iface.h": "c",
+    "audio_element.h": "c",
+    "mp3_decoder.h": "c",
+    "esp_system.h": "c",
+    "esp_netif.h": "c",
+    "esp_tls.h": "c",
+    "input_key_service.h": "c",
+    "*.inc": "cpp",
+    "audio_common.h": "c",
+    "audio_pipeline.h": "c",
+    "audio_hal.h": "c",
+    "llm_access_token.h": "c",
+    "llm_ask.h": "c"
+  },
+  "C_Cpp.default.compilerPath": "D:\\esp\\esp32_4.4.6\\tools\\xtensa-esp32-elf\\esp-2021r2-patch5-8.4.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe"
+}
